@@ -1,0 +1,5 @@
+{
+  "name": "RespiGuard Snow",
+  "description": "AI-powered respiratory health monitoring system for cold and snowy environments. Tracks environmental pollutants and user vitals to predict asthma and bronchospasm risks.",
+  "requestFramePermissions": []
+}
