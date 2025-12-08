@@ -34,6 +34,8 @@ const AIAdvisor: React.FC<AIAdvisorProps> = ({ currentData }) => {
     }
   };
 
+  const hasApiKey = !!process.env.VITE_GEMINI_API_KEY || !!process.env.API_KEY;
+
   return (
     <div className="bg-white rounded-2xl border border-slate-100 shadow-lg shadow-slate-200/50 p-6">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
@@ -42,7 +44,9 @@ const AIAdvisor: React.FC<AIAdvisorProps> = ({ currentData }) => {
             <Brain className="text-indigo-600" />
             AI Respiratory Advisor
             </h2>
-            <p className="text-sm text-slate-500 mt-1">Powered by Gemini 2.5 Flash</p>
+            <p className="text-sm text-slate-500 mt-1">
+              {hasApiKey ? "Powered by Gemini 2.5 Flash" : "Using intelligent mock analysis"}
+            </p>
         </div>
         
         <button
