@@ -2,7 +2,9 @@
 
 > **Protecting lungs in extreme winter conditions using the power of Google Gemini.**
 
-![Winter Health](https://images.unsplash.com/photo-1516746924755-babd37e40a7a?auto=format&fit=crop&q=80&w=1200)
+<img width="1024" height="1024" alt="Gemini_Generated_Image_o06nijo06nijo06n" src="https://github.com/user-attachments/assets/9b74f0c2-e4cf-4efb-a66e-5d4c10be69ac" />
+<img width="2816" height="1536" alt="Gemini_Generated_Image_joh3t4joh3t4joh3" src="https://github.com/user-attachments/assets/c5d125c5-29d5-43e8-9dd2-cca76d0400ed" />
+
 
 ## 📖 Table of Contents
 1. [Problem Statement](#-problem-statement)
@@ -253,7 +255,7 @@ To run this application locally and start monitoring:
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/your-username/respiguard-snow.git
+    git clone https://github.com/senushidinara/RespiGuard-Snow/
     cd respiguard-snow
     ```
 2.  **Install Dependencies**
